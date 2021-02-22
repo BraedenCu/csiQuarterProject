@@ -22,6 +22,9 @@
     </head>
     <body>
         <div>
+            <!--script src="js/scroll.js"></script-->
+            <script src="js/fakescroll.js"></script>
+
             <div class="pageone" id="pageone">
                 <div class="navigationbar">
                     <button onClick="window.location.href='index.html'" class="selectedbutton">Home</button>
@@ -47,13 +50,19 @@
                     </div>               
                 </div>
                 <div class="chevron">
-                    <img src="/images/chevron.svg" class="chevronpageone" alt="chevron"/>
+                    <button class="chevron chevronpageone">
+                        <img src="/images/chevron.svg" class="chevronpageone" onclick="smoothScroll('.pagetwo')" alt="chevron"/>
+                    </button>
                 </div>
             </div>
 
-            <script src="js/scroll.js"></script>
-
             <div class="pagetwo" id="pagetwo">
+                <div class="chevron">
+                    <button class="chevron">
+                        <img src="/images/chevron.svg" class="chevronupsidedown" onclick="smoothScroll('.pageone')" alt="chevron"/>
+                    </button>
+                </div>
+
                 <h1 class="center header">
                     Featured projects
                 </h1>
@@ -89,9 +98,79 @@
                     </div>
                 </div>
                 <div class="chevron">
-                    <img src="/images/chevron.svg" class="chevronpagetwo" alt="chevron"/>
+                    <button class="chevron">
+                        <img src="/images/chevron.svg" class="chevronpagetwo" onclick="smoothScroll('.pagethree')" alt="chevron"/>
+                    </button>
                 </div>
             </div>
+
+            <div class="pagethree" id="pagethree">
+                <div class="chevron">
+                    <button class="chevron">
+                        <img src="/images/chevron.svg" class="chevronupsidedown" onclick="smoothScroll('.pagetwo')" alt="chevron"/>
+                    </button>
+                </div>
+
+                <h1 class="center header">
+                    Featured posts
+                </h1>
+
+                <div class="hps">
+                    <div class="hp">
+                        <div class="imagesectionofpost">
+                            <img src="../images/dogRidingTurtle.gif" alt="Cute Dog">
+                        </div>
+                        <div class="textsectionofpost">
+                            <h1>
+                                <strong>Dog Prediction With AI</strong>
+                            </h1>
+                            <br>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too [...] 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hps">
+                    <div class="hp">
+                        <div class="imagesectionofpost">
+                            <img src="../images/dogRidingTurtle.gif" alt="Cute Dog">
+                        </div>
+                        <div class="textsectionofpost">
+                            <h1>
+                                <strong>Dog Prediction With AI</strong>
+                            </h1>
+                            <br>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too [...] 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hps">
+                    <div class="hp">
+                        <div class="imagesectionofpost">
+                            <img src="../images/dogRidingTurtle.gif" alt="Cute Dog">
+                        </div>
+                        <div class="textsectionofpost">
+                            <h1>
+                                <strong>Dog Prediction With AI</strong>
+                            </h1>
+                            <br>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer too [...] 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chevron">
+                    <button class="chevron">
+                        <img src="/images/chevron.svg" class="chevronpagetwo" onclick="smoothScroll('.pageone')" alt="chevron"/>
+                    </button>
+                </div>
+            </div>
+
         </div>
     </body>
 </html>
