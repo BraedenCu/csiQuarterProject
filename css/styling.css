@@ -106,14 +106,14 @@ body .pageone {
 }
 
 .navigationbar button:focus {     
-    background-color: #f2a365;    
+    background-color: #ff6768;    
 }
 
 .selectedbutton {
     /*Must use important to overide materialize css default size*/
     width: auto !important;
-    background-color: #f2a365 !important;
-    color: #f2a365;
+    background-color: #ff6768 !important;
+    color: #ff6768;
     border: none;
 }
 
