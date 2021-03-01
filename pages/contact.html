@@ -38,41 +38,27 @@
                 <a class="btn-floating btn-small waves-light center social fa fa-linkedin socials" href="https://www.linkedin.com/in/braeden-cullen-4835371a1/"></a>
                 <a class="btn-floating btn-small waves-light center social fa fa-github socials" href="https://github.com/BraedenCu/"></a>
             </div>
-            
-            <div>
-              <div class="row">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="input-field col s6">
-                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                      <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
-                      <label for="last_name">Last Name</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                      <label for="disabled">Disabled</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="password" type="password" class="validate">
-                      <label for="password">Password</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email</label>
-                    </div>
-                  </div>
-                </form>
+            <p class="paragraph center" style="margin-top: 2%;">
+              Feel free to contact me by filling out this form
+            </p>
+            <form>
+              <div class="formgrid">
+                <div>
+                  <label for="name" class="center">Full name:</label><br>
+                  <input type="text"><br>
+                  <label for="email">Email address:</label><br>
+                  <input type="text" id="lname" name="lname">
+                </div>
+                <div>
+                  <label for="name">Full name:</label><br>
+                  <input type="text" class="formsections" style="size: 50;"><br>
+                  <label for="email">Email address:</label><br>
+                  <input type="text" id="lname" name="lname">
+                </div>
               </div>
-              </div>
+              
+              <input onClick="" type="submit" value="Submit Form" class="submitbutton">
+            </form>
         </div>
     </body>
 
