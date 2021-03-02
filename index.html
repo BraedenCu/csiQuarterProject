@@ -1,3 +1,15 @@
+<!--The purpose of this project is to present blog posts and my personal projects in 
+the field of softwarer development in order to attract potential employers to fill 
+out my contact form with a job offer.
+The index.html file is the homepage that includes featured projects and blog posts while also including
+links to my social media and a mission statement.
+Th three other pages are under the pages directory, and there content is relatively self explanatory.
+This project also makes some use of javascript to create the scrolling effect
+found on the first page once the chevron is clicked. 
+The only javascript I created for this project is the fakescroll.js file in the js directory,
+the others belong to external styling libraries I used for this project.-->
+
+
 <!DOCTYPE html>
 <html style="scroll-behavior: smooth;">
     <head>
@@ -18,7 +30,8 @@
         <!--Add fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-
+        <!--Add favicon-->
+        <link rel="icon" href="images/favicon.ico" type="very cute dog">
     </head>
     <body>
         <div>
@@ -55,6 +68,9 @@
                         <img src="/images/chevron.svg" class="chevronpageone" onclick="smoothScroll('.pagetwo')" alt="chevron"/>
                     </button>
                 </div>
+                <p class="center">
+                    Disclaimer: this website is not advertising real services and all information found on this site should be taken with caution.
+                </p>
             </div>
 
             <div class="pagetwo" id="pagetwo">
@@ -171,7 +187,6 @@
                     </button>
                 </div>
             </div>
-
         </div>
     </body>
 </html>

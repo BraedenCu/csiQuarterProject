@@ -4,5 +4,4 @@ function smoothScroll(classId){
     });
     document.getElementById("pagetwo").style.opacity = 100;
     document.getElementById("pagetwo").style.pointerEvents = 'auto';
-    
 }
