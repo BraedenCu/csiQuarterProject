@@ -20,8 +20,9 @@
         <link rel="icon" href="../images/favicon.ico" type="very cute dog">
     </head>
 
-    <body>
-        <div class="projectspage">
+    <body id="contact">
+
+        <div class="projectspage" id="contactspage">
             <div class="navigationbar">
                 <button onClick="window.location.href='../index.html'">Home</button>
                 <button onClick="window.location.href='projects.html'">Projects</button>
@@ -46,21 +47,23 @@
               <div class="formgrid">
                 <div>
                   <label for="name" class="center">Full name:</label><br>
-                  <input type="text"><br>
+                  <input type="text" id="name"><br>
                   <label for="email">Email address:</label><br>
-                  <input type="text" id="lname" name="lname">
+                  <input type="text" id="email">
                 </div>
                 <div>
-                  <label for="message">Phone number:</label><br>
-                  <input type="text" class="formsections" style="size: 50;"><br>
-                  <label for="email">Message:</label><br>
-                  <input type="text" id="lname" name="lname">
+                  <label for="numer">Phone number:</label><br>
+                  <input type="text" id="phonenumber"><br>
+                  <label for="message">Message:</label><br>
+                  <input type="text" id="message">
                 </div>
               </div>
               
-              <input onClick="" type="submit" value="Submit Form" class="submitbutton">
+              <input onClick="" type="submit" id="submitbutton" value="Submit Form" class="submitbutton">
             </form>
         </div>
+        
+        <script src="../js/form.js"></script>
     </body>
 
 </html>
