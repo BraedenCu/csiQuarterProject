@@ -87,12 +87,12 @@ body .pageone {
     font-family: Courier;
     display: grid;
     position: relative;
+    width: 44%;
     margin: auto;
     margin-top: 20px;
-    width: 30%;
     /* three columns in the grid*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-    gap: 5px;
+    gap: 0.2%;
 }
 
 .fixedcenter {
@@ -114,6 +114,22 @@ body .pageone {
     margin-top: 0px;
 }
 
+.logobutton {
+    /*Must use important to overide materialize css defaults*/
+    width: auto;
+    display: block;
+    height: 40px;
+    background-color: #222831;
+    color: black;
+    border: none;
+    border-radius: 5%;
+    margin-top: 0px;
+}
+
+
+.logobutton:focus {
+    background-color: #222831 !important;
+}
 .navigationbar button:hover {
     cursor: pointer;
     opacity: 0.6;
@@ -145,7 +161,7 @@ body .pageone {
 
 .circleImage {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;overflow: hidden;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -157,7 +173,7 @@ body .pageone {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 60%;
+    width: 70%;
 }
 
 .profilephotoandbio p {
@@ -191,7 +207,7 @@ body .pageone {
 }
 
 .chevronpageone {
-    margin-top: 8%;
+    margin-top: 12%;
 }
 
 .chevronpagetwo{
@@ -290,6 +306,7 @@ body .pageone {
     display: block;
     height: 40px;
     margin-left: auto;
+    font-family: Courier;
     margin-right: auto;
     background-color: #ff6768;
     border: none;
@@ -305,3 +322,4 @@ body .pageone {
     height: 10%;
     background-color: #ff6768;
 }
+
