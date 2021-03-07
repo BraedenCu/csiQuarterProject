@@ -78,6 +78,7 @@ body .pageone {
     width: 60%;
     color: black;
     margin: auto;
+    margin-top: 6vh;
     text-align: center;
 }
 
@@ -203,11 +204,15 @@ body .pageone {
 
 .chevron {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .chevronpageone {
-    margin-top: 12%;
+    display: block;
+    margin-top: 0.1vh;
+    display: block;
+    border: none;
 }
 
 .chevronpagetwo{
