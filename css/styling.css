@@ -104,7 +104,6 @@ body .pageone {
 }
 
 .navigationbar button {
-    /*Must use important to overide materialize css defaults*/
     width: auto;
     display: block;
     height: 40px;
@@ -116,7 +115,6 @@ body .pageone {
 }
 
 .logobutton {
-    /*Must use important to overide materialize css defaults*/
     width: auto;
     display: block;
     height: 40px;
@@ -149,6 +147,7 @@ body .pageone {
 }
 
 .logo {
+    /*Must use important to overide materialize css defaults*/
     width: 60px;
     height: 60px;
     margin: auto;
@@ -157,12 +156,14 @@ body .pageone {
 }
 
 .logo:focus {
+    /*Must use important to overide materialize css defaults*/
     background-color: #222831 !important;    
 }
 
 .circleImage {
     margin-left: auto;
-    margin-right: auto;overflow: hidden;
+    margin-right: auto;
+    overflow: hidden;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -230,6 +231,7 @@ body .pageone {
 }
 
 .chevron button {
+    /*Must use important to overide materialize css defaults*/
     background: transparent;
     border: none !important;
     font-size:0;
@@ -242,6 +244,7 @@ body .pageone {
 }
 
 .chevron button:active {
+    /*Must use important to overide materialize css defaults*/
     background-color:#222831 !important;
 }
 
@@ -261,24 +264,28 @@ body .pageone {
 
 /* Github */
 .fa-github {
+    /*Must use important to overide materialize css defaults*/
     background: #24292e !important;
     color: white;
 }
 
 /* Twitter */
 .fa-twitter {
+    /*Must use important to overide materialize css defaults*/
     background: #55ACEE !important;
     color: white;
 }
 
 /* linkedin */
 .fa-linkedin {
+    /*Must use important to overide materialize css defaults*/
     background: #007bb5 !important;
     color: white;
 }
 
 /* youtube */
 .fa-youtube {
+    /*Must use important to overide materialize css defaults*/
     background: #bb0000 !important; 
     color: white;
 }
